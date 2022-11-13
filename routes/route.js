@@ -56,6 +56,7 @@ router.get("/stockName",stock.stock)
 
 router.get("/getstockdata/:id",stockdata.stockdata)
 router.get("/stockdataid/:id",stockdata.stockdataid)
+router.get("/stockdatagraph/:id",stockdata.stockdatagraph)
 
 
 
